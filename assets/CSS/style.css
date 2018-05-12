@@ -1,0 +1,180 @@
+html {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+body {
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+    width: auto;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+
+
+.navigation{
+    background: none;
+    padding: 30px;
+    width: auto;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+div {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    float: left;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbuttons {
+    float: right;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    text-decoration: none;
+}
+
+section {
+    background: white;
+    width: 960px;
+    height: 600px;
+    word-wrap: break-word;
+    padding: 30px;
+    margin: auto;
+    clear: both;
+}
+
+/*This esits the font on the profile page's main content*/
+p {
+    font-size: 20px;
+}
+
+/*This line makes words wrap around picture*/
+.main {
+    word-wrap: break-word;
+}
+
+h2 {
+
+}
+
+/*This is the image in the profile page*/
+img {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 22%;
+    float: left;
+}
+
+/*This is the line in the section box with the content in it*/
+hr {
+    background: #4aaaa5;
+    padding: 5px;
+    width: 100%;
+    clear: both;
+    
+}
+
+/*This edits the font size of the form*/
+form {
+    font-size: 20px;
+}
+
+/*This is the "Name & Email" section box*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+/*This is the "Comment" section box*/
+input[type=textOne]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 200px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+ 
+/*This edits the "Submit" button*/
+input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+/*This edits the "Reset" button*/
+input[type=reset]{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+/*This is the green line at the bottom of the page*/
+.line {
+    bottom: 5.5%;
+    position: bottom;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    Width: auto;
+}
+
+/*This is the footer at the bottom of the page with copywrite in it*/
+footer {
+    background: #666666;
+    color: white;
+    padding: 20px;
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
